@@ -1,0 +1,19 @@
+:root{
+    --cor_fundo: rgb(166, 240, 205);
+    --cor_botao: rgb(243, 248, 224);
+    --cor_borda: red ;
+}
+body{
+    background-color: var(--cor_fundo);
+    border: var(--cor_borda) solid 2px;
+ 
+}
+main{
+    border: purple solid 2px;
+}
+header{
+    border: blue solid 2px;
+}
+.caixa{
+    background-color: var(--cor_botao);
+}
