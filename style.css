@@ -1,19 +1,55 @@
 :root{
-    --cor_fundo: rgb(166, 240, 205);
-    --cor_botao: rgb(243, 248, 224);
-    --cor_borda: red ;
-}
-body{
-    background-color: var(--cor_fundo);
-    border: var(--cor_borda) solid 2px;
- 
+    --cor_fundo: #F4EFEC;
+    --cor_1: #F0D9D1;
+    --cor_2: #DDB7AC ;
+    --cor_3: #999B85;
 }
 main{
+    grid-area: prin;
     border: purple solid 2px;
+    background-color: var(--cor_1);
+
 }
 header{
-    border: blue solid 2px;
+    grid-area: cabe;
+    background-color: var(--cor_3);
+
+}
+footer{
+    grid-area: roda;
+    background-color: var(--cor_2);
+
+}
+ *{
+    margin: 0%;
+    padding: 0%;
+ }
+body{
+    display: grid;
+    grid-template-areas:
+    " cabe "
+    " prin "
+    " roda ";
+    grid-template-columns: auto;
+    grid-template-rows: 150px auto 200px;
+    background-color: var(--cor_fundo);
+    border: var(--cor_3) solid 2px;
+ 
 }
 .caixa{
-    background-color: var(--cor_botao);
+    background-color: var(--cor_1);
+}
+div ul{
+    display: inline;
+    position: absolute;
+    align-items: center;
+    margin-top: 4.5%;
+    margin-left: 55%;
+ }
+ 
+.logo{
+    width: auto;
+    height: 200px;
+    padding: 6px;
+    border-radius: 30px;
 }
