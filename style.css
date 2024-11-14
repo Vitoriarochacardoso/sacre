@@ -8,8 +8,11 @@ main{
     grid-area: prin;
     border: purple solid 2px;
     background-color: var(--cor_1);
-
+    display: flex;
+    justify-content: center;
 }
+
+
 header{
     grid-area: cabe;
     background-color: var(--cor_3);
@@ -31,25 +34,35 @@ body{
     " prin "
     " roda ";
     grid-template-columns: auto;
-    grid-template-rows: 150px auto 200px;
+    grid-template-rows: 210px 540px 210px;
     background-color: var(--cor_fundo);
-    border: var(--cor_3) solid 2px;
+    border: var(--cor_3);
  
 }
 .caixa{
     background-color: var(--cor_1);
 }
-div ul{
-    display: inline;
-    position: absolute;
-    align-items: center;
-    margin-top: 4.5%;
-    margin-left: 55%;
- }
- 
+
+
+
+
+
 .logo{
     width: auto;
     height: 200px;
     padding: 6px;
     border-radius: 30px;
+}
+
+
+
+
+
+
+.boxtexto{
+    width: 70%;
+}
+
+.titulo{
+    text-align: center;
 }
