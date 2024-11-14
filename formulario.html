@@ -1,19 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Gráfico Chart.js</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" href="style1.css">
 </head>
 <body>
-    <input type="number" name="" id="valor" placeholder="digite"><br>
-    <input type="number" name="" id="quanti" placeholder="valor"><br>
-    <button onclick="calcula()"> calcular</button>
-    <table id="aqui">
-        <thead></thead>
-        <tbody></tbody>
-    </table>
+    <header>
+        <div>
+            <img class="logo" src="imagem/logo.png" alt=" balanca">   
+                             
+        </div>
+    </header>
+    <main>
+        <div class="case-chart">
+            <canvas id="myChart"></canvas>
+        </div>
+        <script src="script1.js"></script>
+    </main>
+
+    
 </body>
-<script src="script.js"></script>
 </html>
