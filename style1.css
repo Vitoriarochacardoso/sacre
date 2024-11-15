@@ -66,3 +66,48 @@ main, header{
         align-items: center;
     }
 }
+
+
+
+
+
+
+
+.grafico{/* imagem dos links que direcionam para a outra pagina*/
+    width: 150px;
+    height: 70px;
+    padding: 6px;
+    border-radius: 25px;
+    margin-right: 40px;
+}
+.pag1{/* imagem dos links que direcionam para a outra pagina*/
+    width: 150px;
+    height: 70px;
+    padding: 6px;
+    border-radius: 25px;
+    margin-right: 40px;
+}
+.tabela{/* imagem dos links que direcionam para a outra pagina*/
+    width: 150px;
+    height: 70px;
+    padding: 6px;
+    border-radius: 25px;
+    margin-right: 40px; 
+}
+
+
+
+
+nav{/* configurações dos links das paginas */
+    display: flex;/* para ser flexivel*/
+    position: absolute;
+    top: 70px;
+    margin-left: 850px;
+    border-radius: 30px;
+}
+nav li{
+    display: inline;
+}
+nav a{
+    margin-top: 25px;
+}
