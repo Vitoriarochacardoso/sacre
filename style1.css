@@ -12,17 +12,57 @@ body{
 }
 .case-chart{
     background-color: #DDB7AC;
-    padding: 2%;
-    width: 60%;
+    padding: 4%;
+    height: 220px;
     border-radius: 20px;
+    align-items: center;
+    box-shadow: 3px 6px 11px black;/*sombra*/
+    margin-top: 75px;
 }
 .logo{
     width: auto;
     height: 200px;
     padding: 6px;
     border-radius: 30px;
+    position: relative;
+    
 }
 main, header{
     display: flex;
-    justify-content: center;
+}
+.info{
+    margin: 80px;
+    display: flex;
+    flex-direction: column;
+    background-color: #8a8b77;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 3px 6px 11px black;/*sombra*/
+    transition: 3s;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    margin-top: 75px;
+   
+}
+.info1{
+    width: 600px;/*tamanho do card*/
+    height: 300px;/*altura do card*/
+    margin: 50px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    background-color: #8a8b77;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 3px 6px 11px black;/*sombra*/
+    transition: 3s;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    margin-top: 75px;
+}
+@media(max-whidth:768px){
+    .container{
+        flex-direction: column;
+        align-items: center;
+    }
 }
