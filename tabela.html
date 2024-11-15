@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela Price - Simulação de Financiamento</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <header>
+        <div>
+            <img class="logo" src="imagem/logo.png" alt=" logo">   
+        </div>
+        <nav class="img">
+            <ul>
+                <li><a href="grafico.html" target="_blank"><img  class="grafico" src="imagem/grafi.jpg" alt="grafico"></a></li>
+                <li><a href="tabela.html" target="_blank"><img  class="tabela" src="imagem/tabela.jpg" alt="tabela"></a></li>
+                <li><a href="index.html"  target="_blank"><img  class="pag1" src="imagem/inicio.jpg" alt="inicio"></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="boxtexto">
+            <br>
+            <section class="box">
+                <h1>Simulação de Financiamento - Tabela SACRE</h1>
+    
+            <br>
+        <label for="valor">Valor do financiamento:</label>
+        <input type="number" id="valor"><br><br>
+
+        <label for="taxa">Taxa de juros mensal (%):</label>
+        <input type="number" id="taxa"><br><br>
+
+        <label for="parcelas">Número de parcelas:</label>
+        <input type="number" id="parcelas"><br><br>
+
+        <button class="botao" onclick="calcular()">Calcular</button>
+            </section>
+        <br>
+        </div>
+    <table  id="tabela">
+        <thead>
+            <tr>
+                <th>Parcela</th>
+                <th>Valor da Parcela</th>
+                <th>Amortização</th>
+                <th>Juros</th>
+                <th>Saldo Devedor</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+
+</main>
+<script src="script2.js"></script>
+
+</body>
+</html>
