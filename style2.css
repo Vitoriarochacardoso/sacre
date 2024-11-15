@@ -1,0 +1,12 @@
+:root{
+    --cor_fundo: #F4EFEC;
+    --cor_1: #F0D9D1;
+    --cor_2: #DDB7AC ;
+    --cor_3: #999B85;
+}
+body{
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+    background-color:var(--cor_3);
+}
